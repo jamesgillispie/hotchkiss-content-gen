@@ -24,6 +24,16 @@ if [ -z "$OPENAI_API_BASE" ]; then
     echo "Using default OPENAI_API_BASE: $OPENAI_API_BASE"
 fi
 
+# Warn the user that the script will clear the pages_chunks table
+echo "⚠️  WARNING: This script will clear all data from the 'pages_chunks' table in Supabase before processing."
+echo "This action cannot be undone."
+read -p "Do you want to continue? (y/n): " confirm
+
+if [[ $confirm != [yY] && $confirm != [yY][eE][sS] ]]; then
+    echo "Operation cancelled."
+    exit 1
+fi
+
 # Run the embedding script
 echo "Starting embedding process..."
 ./embed_to_supabase.py

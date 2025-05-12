@@ -13,7 +13,7 @@ from typing import List, Dict, Any, Optional
 import requests
 from tqdm import tqdm
 from supabase import create_client, Client
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.text_splitter import TokenTextSplitter
 
 # Configuration
 BATCH_SIZE = 100  # Number of embeddings to generate in a single API call
@@ -71,27 +71,39 @@ def fetch_pages(supabase_client: Client) -> List[Dict[str, Any]]:
         traceback.print_exc()
         return []
 
-def split_text(text: str) -> List[str]:
-    """Split text into chunks using LangChain's RecursiveCharacterTextSplitter."""
+def split_text(text: str) -> List[Dict[str, Any]]:
+    """
+    Split text into chunks using LangChain's TokenTextSplitter with tiktoken.
+    Returns a list of dictionaries with 'text' and 'tokens' keys.
+    Skips chunks with token count > 450.
+    """
     if not text:
         return []
     
     # Initialize the text splitter with appropriate chunk size and overlap
-    # Targeting ~400 tokens per chunk with 50 token overlap
-    # Assuming average of 4 characters per token for English text
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1600,  # ~400 tokens
-        chunk_overlap=200,  # ~50 tokens
-        length_function=lambda x: len(x) // 4,  # Approximate token count
+    splitter = TokenTextSplitter(
+        chunk_size=400,
+        chunk_overlap=50,
+        encoding_name="cl100k_base"  # fits ada-002 / text-embedding-3-small
     )
     
     # Split the text into chunks
-    return text_splitter.split_text(text)
-
-def count_tokens(text: str) -> int:
-    """Approximate token count based on character count."""
-    # Simple approximation: 1 token ≈ 4 characters for English text
-    return len(text) // 4
+    chunks = splitter.split_text(text)
+    
+    # Calculate token count for each chunk and filter out chunks with token count > 450
+    result = []
+    for chunk in chunks:
+        # Get token count using the same tokenizer
+        token_count = len(splitter._tokenizer.encode(chunk))
+        
+        # Skip chunks with token count > 450 (likely navigation menus, etc.)
+        if token_count <= 450:
+            result.append({
+                'text': chunk,
+                'tokens': token_count
+            })
+    
+    return result
 
 def create_embedding(texts: List[str], retries: int = 3) -> Optional[List[List[float]]]:
     """
@@ -193,8 +205,18 @@ def ensure_pages_chunks_table(supabase_client: Client):
             embedding vector(1536),
             UNIQUE(url, chunk_idx)
         );
+        
+        -- Create vector similarity search function
+        create or replace function match_chunks(q vector, k int)
+        returns table(url text, content text, score float)
+        language sql stable as $$
+        select url, content, 1 - (embedding <=> q) as score
+        from pages_chunks
+        order by embedding <=> q
+        limit k;
+        $$;
         """)
-        print("After creating the table, please run this script again.")
+        print("After creating the table and function, please run this script again.")
         exit(1)
 
 def upsert_chunks(supabase_client: Client, chunks_data: List[Dict[str, Any]]) -> Dict[str, int]:
@@ -264,6 +286,25 @@ def check_pages_chunks_table(supabase_client: Client) -> int:
         traceback.print_exc()
         return 0
 
+def clear_pages_chunks_table(supabase_client: Client) -> bool:
+    """Clear all data from the pages_chunks table."""
+    try:
+        print("Clearing 'pages_chunks' table...")
+        # Delete all records from the table
+        response = supabase_client.table('pages_chunks').delete().execute()
+        
+        if hasattr(response, 'data'):
+            print(f"Successfully cleared 'pages_chunks' table.")
+            return True
+        
+        print("Warning: Response has no 'data' attribute.")
+        return False
+    except Exception as e:
+        print(f"Error clearing pages_chunks table: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
 def main():
     """Main function to orchestrate the embedding process."""
     start_time = time.time()
@@ -274,7 +315,10 @@ def main():
     # Ensure the pages_chunks table exists
     ensure_pages_chunks_table(supabase_client)
     
-    # Check if the pages_chunks table already has data
+    # Clear the pages_chunks table before starting
+    clear_pages_chunks_table(supabase_client)
+    
+    # Check if the pages_chunks table already has data (should be 0 after clearing)
     initial_chunks_count = check_pages_chunks_table(supabase_client)
     print(f"Current count in pages_chunks table: {initial_chunks_count}")
     
@@ -305,15 +349,22 @@ def main():
                 continue
             
             # Split the markdown into chunks
-            chunks = split_text(markdown)
+            chunk_objects = split_text(markdown)
             
-            if not chunks:
+            if not chunk_objects:
                 continue
             
+            # Extract just the text for embedding
+            chunks = [chunk_obj['text'] for chunk_obj in chunk_objects]
+            token_counts = [chunk_obj['tokens'] for chunk_obj in chunk_objects]
+            
+            page_total_tokens = sum(token_counts)
+            
             # Process chunks in batches for embedding
+            chunks_embedded = 0
             for j in range(0, len(chunks), BATCH_SIZE):
                 chunk_batch = chunks[j:j+BATCH_SIZE]
-                token_counts = [count_tokens(chunk) for chunk in chunk_batch]
+                token_batch = token_counts[j:j+BATCH_SIZE]
                 
                 # Generate embeddings for the chunk batch
                 embeddings = create_embedding(chunk_batch)
@@ -324,7 +375,7 @@ def main():
                 
                 # Prepare data for upserting
                 chunks_data = []
-                for k, (chunk, token_count, embedding) in enumerate(zip(chunk_batch, token_counts, embeddings)):
+                for k, (chunk, token_count, embedding) in enumerate(zip(chunk_batch, token_batch, embeddings)):
                     chunk_idx = j + k
                     chunks_data.append({
                         'url': url,
@@ -337,10 +388,14 @@ def main():
                 # Upsert chunks to Supabase
                 result = upsert_chunks(supabase_client, chunks_data)
                 
-                total_chunks_embedded += result['success']
+                chunks_embedded += result['success']
                 total_errors += result['error']
-                total_tokens += sum(token_counts)
             
+            # Per-page logging
+            print(f"{url} → {len(chunk_objects)} chunks, {page_total_tokens} tokens")
+            
+            total_chunks_embedded += chunks_embedded
+            total_tokens += page_total_tokens
             total_pages_processed += 1
     
     # Calculate estimated cost
