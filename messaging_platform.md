@@ -1,7 +1,7 @@
 
 # **Messaging Platform for The Hotchkiss School**
 
-# I. The Purpose of this Messaging Platform
+## I. The Purpose of this Messaging Platform
 
 The Hotchkiss School, a highly selective independent boarding school, is
 distinguished by its rigorous academic program, its focus on guiding
@@ -60,7 +60,7 @@ authenticity, clarity, and consistency.
   leaders, faculty, alumni,** and **advocates** in communicating to all
   audiences the shared story of who Hotchkiss is and is becoming.
 
-# III. The Question of Cultural Transformation 
+# III. The Question of Cultural Transformation
 
 As context for this material, we want to stress the consistency with
 which every individual and group with whom we spoke observed that
@@ -71,19 +71,19 @@ are summarized below.
 
 [Hotchkiss of the past:]
 
-1.  **Hyper-competitive and rigorous**, to the degree that several
+1. **Hyper-competitive and rigorous**, to the degree that several
     alumni separately shared that even decades since graduation, the
     mere thought of the flashing red traffic light near the School still
     fills them with anxiety and dread.
 
-2.  **Intolerant of failure of any kind**, including dramatic and
+2. **Intolerant of failure of any kind**, including dramatic and
     unequivocal consequences for academic or behavioral errors.
 
-3.  **A pressure cooker of academic intensity and discipline**,
+3. **A pressure cooker of academic intensity and discipline**,
     resulting in graduates feeling that they had been mightily tested
     and ultimately were intellectually stronger for it.
 
-4.  **An athletics culture defined by a complete commitment to
+4. **An athletics culture defined by a complete commitment to
     winning**, resulting in championships, considerable alumni pride,
     and a marked reputation as a school where the pressures of
     competition were severe and athletic ability mattered profoundly to
@@ -91,20 +91,20 @@ are summarized below.
 
 [Today's Hotchkiss:]
 
-1.  **A genuinely pluralistic learning community** focused on student
+1. **A genuinely pluralistic learning community** focused on student
     well-being, holistic personal development, and care for each
     individual. This transformative shift offers a strong differentiator
     for Hotchkiss compared to peers, yet it still does not widely inform
     its reputation among prospective families, educational counselors,
     and some alumni.
 
-2.  **Still-rigorous expectations for academic performance**, but ones
+2. **Still-rigorous expectations for academic performance**, but ones
     backed by close personal encouragement and support.
 
-3.  **An empathetic and educational approach** to failure and error,
+3. **An empathetic and educational approach** to failure and error,
     notably when students violate behavioral expectations.
 
-4.  **A wide array of athletics opportunities** where the role athletics
+4. **A wide array of athletics opportunities** where the role athletics
     play in overall adolescent development is now prioritized alongside
     winning performance.
 
@@ -180,24 +180,24 @@ around these three pillars:
 > \
 > Proof points that illustrate this pillar include:
 
-a.  Across more than 200 courses in seven departments, with an average
+a. Across more than 200 courses in seven departments, with an average
     class size of 12, students explore a broad range of subjects.
 
-b.  Our hands-on, skills-based curriculum includes fascinating electives
+b. Our hands-on, skills-based curriculum includes fascinating electives
     across numerous disciplines, some of which include conducting
     original research in partnership with leading universities.
 
-c.  Through all four years, a comprehensive focus on writing supports
+c. Through all four years, a comprehensive focus on writing supports
     students in learning to discern and dissect an argument, to ground
     their ideas in knowledge, and to express them clearly, all while
     gaining meaningful confidence in their intellectual abilities.
 
-d.  Students learn among peers who challenge and inspire them. By
+d. Students learn among peers who challenge and inspire them. By
     welcoming the most capable students to Hotchkiss, regardless of
     their financial circumstances, Hotchkiss continually elevates
     learning for everyone.
 
-e.  Hotchkiss recognizes and respects different points of view. Since
+e. Hotchkiss recognizes and respects different points of view. Since
     2019, we have worked with the University of Chicago on incorporating
     the values of open discourse into the community in a safe and
     scaffolded way. Student-led discussion forums engage with
@@ -205,36 +205,36 @@ e.  Hotchkiss recognizes and respects different points of view. Since
     points of view while ensuring that all students feel safe, seen, and
     supported.
 
-f.  The learning experience at Hotchkiss is one of mutual engagement.
+f. The learning experience at Hotchkiss is one of mutual engagement.
     Teachers, coaches, and advisors listen while they teach and reflect
     at the same time they instruct. This supports students in developing
     a strong sense of self-confidence in their own minds and
     capabilities.
 
-g.  Students can strive for numerous leadership positions throughout
+g. Students can strive for numerous leadership positions throughout
     their time here, developing skills not only of leadership but also
     of resilience in the face of challenges. When students bring these
     skills to bear in the classroom, there is no limit to what they can
     achieve.
 
-h.  Hotchkiss's beautiful location in the Berkshire-Taconic region of
+h. Hotchkiss's beautiful location in the Berkshire-Taconic region of
     northwestern Connecticut creates an idyllic atmosphere featuring
     hundreds of acres of woods and fields with access to streams, a lake
     ecosystem, and night skies virtually free from light pollution---all
     of which are spaces in which to learn.
 
-i.  [The School's single main building supports community connections,
+i. [The School's single main building supports community connections,
     creating a cultural center for everyone on campus, allowing students
     to come together and have fun, with short walking distances to
     classes and dorms that simplify campus life.]
 
-j.  [With an international footprint, Hotchkiss is a] [[[Round
+j. [With an international footprint, Hotchkiss is a] [[[Round
     Square]](https://www.roundsquare.org/) school, the only
     one in the Eight Schools Association. Students can learn abroad
     through numerous travel programs and receive generous financial
     support to do so.]
 
-k.  [The academic experience is inextricably intertwined with the
+k. [The academic experience is inextricably intertwined with the
     individual attention and support that every student
     experiences.]
 
@@ -253,48 +253,48 @@ k.  [The academic experience is inextricably intertwined with the
 >
 > Proof points that illustrate this pillar include:
 
-a.  With approximately 600 students, Hotchkiss is medium-sized relative
+a. With approximately 600 students, Hotchkiss is medium-sized relative
     to peers--large enough for significant diversity of every kind while
     small enough to ensure that campus adults support every student.
 
-b.  Our student-instructor ratio is 4:1. Every student is known and
+b. Our student-instructor ratio is 4:1. Every student is known and
     supported by many adults on campus.
 
-c.  Seventy percent of faculty members live on campus, creating close
+c. Seventy percent of faculty members live on campus, creating close
     bonds between students and faculty and high faculty awareness of the
     needs and well-being of the students entrusted to their care.
 
-d.  Faculty members live on every floor of every dorm, ensuring that
+d. Faculty members live on every floor of every dorm, ensuring that
     residential spaces are supportive.
 
-e.  Our average faculty member has more than 23 years of teaching
+e. Our average faculty member has more than 23 years of teaching
     experience, ranking us third among our peers in teacher tenure.
 
-f.  Most of our faculty coach at least one sport, further deepening
+f. Most of our faculty coach at least one sport, further deepening
     their understanding of and connection to students.
 
-g.  Students engage closely with a single faculty advisor throughout
+g. Students engage closely with a single faculty advisor throughout
     their time at Hotchkiss, working together to plan a balanced course
     of study that aligns with each student's college aspirations and
     beyond.
 
-h.  Every upper mid is assigned an experienced college advisor who
+h. Every upper mid is assigned an experienced college advisor who
     supports and engages the student and their family throughout the
     college process.
 
-i.  The Teaching and Learning Center works one-on-one with students to
+i. The Teaching and Learning Center works one-on-one with students to
     help them reach academic goals, providing tutoring and learning
     resources and assisting kids who may need to make up a significant
     amount of classwork.
 
-j.  Experienced library staff are available to identify resources and
+j. Experienced library staff are available to identify resources and
     engage with students on various schoolwork, sophisticated research,
     and projects.
 
-k.  Supportive one-on-one mental health counseling is available on
+k. Supportive one-on-one mental health counseling is available on
     campus to all students.
 
-l.  The Head of School knows every Hotchkiss student, eats meals in the
+l. The Head of School knows every Hotchkiss student, eats meals in the
     dining hall, meets frequently with individual students and groups,
     and regularly stands outside his office to greet kids by name as
     they walk between classes.
@@ -317,114 +317,112 @@ Proof points that illustrate this pillar include:
 
 > Overall:
 
-a.  [Hotchkiss is a [school], not a mini-university. The
+a. [Hotchkiss is a [school], not a mini-university. The
     community, including the ways adult support is structured and that
     fun and joy are incorporated is designed for teenagers.]
 
-b.  One of our fundamental learning values is providing a residential
+b. One of our fundamental learning values is providing a residential
     community where every student feels safe, seen, and supported. This
     is a value we live by.
 
-c.  The Hotchkiss experience is [everyone\'s] experience.
+c. The Hotchkiss experience is [everyone\'s] experience.
     That's why financial aid packages are not limited to tuition.
     Qualifying families can receive non-tuition aid that is discrete and
     invisible to peers. This can cover everything from student and
     family air travel to international trips, athletic equipment, books,
     money for the snack bar, and much more.
 
-d.  [The School's single main building supports community connections as
+d. [The School's single main building supports community connections as
     all students and teachers interact throughout the day.]
 
 > Community Life:
 
-e.  Our commitment to pluralism and diversity spans geography, language,
+e. Our commitment to pluralism and diversity spans geography, language,
     socioeconomic background, gender, identity, religious affiliation,
     political perspective, neurodiversity, and much more.
 
-f.  Students represent 37 U.S. states and 29 countries.
+f. Students represent 37 U.S. states and 29 countries.
 
-g.  In 2024, 41 percent of entering domestic students self-identify as
+g. In 2024, 41 percent of entering domestic students self-identify as
     people of color (vs. about 30 percent in 2019), thanks to bold
     programming designed to recruit students of color, strengthen
     relationships with community-based organizations, and open new
     communication channels with talented students and their families.
 
-h.  Recognizing the criticality of students seeing themselves in the
+h. Recognizing the criticality of students seeing themselves in the
     adults around them, we continue to prioritize and invest in
     programming that successfully attracts and retains a diverse
     faculty.
 
-i.  Hotchkiss students have created approximately 80 advocacy, culture,
+i. Hotchkiss students have created approximately 80 advocacy, culture,
     and affinity groups that allow students to share and learn from one
     another's experiences, cultures, and beliefs.
 
-j.  [Hotchkiss's commitment to service goes back to the beginning. St.
+j. [Hotchkiss's commitment to service goes back to the beginning. St.
     Luke's Society, the primary service organization, was founded in
     1892 and continues to thrive.]
 
-k.  [Ninety percent of students participate in a sport. Other
+k. [Ninety percent of students participate in a sport. Other
     co-curricular options include theater productions, work on Fairfield
     Farm, and care of the School's woods and trails, among many
     others.]
 
-l.  [School spirit is everywhere! From cheering crowds of kids at
+l. [School spirit is everywhere! From cheering crowds of kids at
     athletic events to pep rallies, class carnivals, "Troppy Tuesdays,"
     "Fun Fridays," Head of School holidays, spirit week, senior week,
     etc.]
 
 > Dorm Life:
 
-m.  Approximately ninety-six percent of students board. This is one of
+m. Approximately ninety-six percent of students board. This is one of
     the lowest percentages of day students among peer schools, creating
     a genuinely close-knit, immersive community.
 
-n.  Dormitories house preps and lower mids (9th and 10th graders)
+n. Dormitories house preps and lower mids (9th and 10th graders)
     [or] upper mids and seniors (11th and 12th graders),
     ensuring that students live among age-appropriate peers. The
     exception to this is Watson Dormitory, a welcoming all-gender
     housing option available to students of any age.
 
-o.  [Faculty members are assigned to every floor of each dorm. Their
+o. [Faculty members are assigned to every floor of each dorm. Their
     partners, children, and pets often live with them, creating a family
     atmosphere.]
 
-p.  [Trained upperclass students serve as proctors in their dorms,
+p. [Trained upperclass students serve as proctors in their dorms,
     watching out for their peers and helping to create a safe,
     respectful community.]
 
 > Wellbeing:
 
-q.  Annual well-being programming addresses topics such as consent and
+q. Annual well-being programming addresses topics such as consent and
     healthy relationships; sleep; social media use; positive vs.
     negative self-talk; being a bystander vs. being an upstander; and
     many other topics.
 
-r.  Each year, we field an anonymous survey to all students that
+r. Each year, we field an anonymous survey to all students that
     assesses student perspectives on classroom norms, fairness, bias,
     social dynamics, residential life, social media use, drug and
     alcohol use, sense of well-being, and more. The survey results,
     which are only reviewed in aggregate, assist the School in
     developing data-driven responses to student needs.
 
-s.  We continue to evaluate and adjust School policies to align with
+s. We continue to evaluate and adjust School policies to align with
     educational outcomes. For example, aligning the School's drug and
     alcohol policy with learning rather than punishment, limiting the
     use of cell phones in shared spaces, and introducing an anti-bias
     reporting form that can be used by any student at any time to report
     any incident of concern.
 
-t.  Hotchkiss faculty and staff must participate in extensive yearly
+t. Hotchkiss faculty and staff must participate in extensive yearly
     training that supports students' safety and care.
 
 > The Natural World
 
-u.  Stunning campus... woods, fields, lakefront ecosystems...
+u. Stunning campus... woods, fields, lakefront ecosystems...
 
-v.  Hotchkiss remains committed to reducing our carbon footprint, which
+v. Hotchkiss remains committed to reducing our carbon footprint, which
     has come down by 50% in the last 10 years without the use of carbon
     offsets.
-
-#  
 
 # V. Core Narrative and Content Guidance
 
@@ -432,7 +430,7 @@ The Core Narrative guides public-facing messaging, including the
 Hotchkiss website, videos, printed materials, and more. It is shaped
 around this essential message:
 
-**Hotchkiss is Ready for You**
+# Hotchkiss is Ready for You
 
 ## For Admissions
 
@@ -517,7 +515,7 @@ around this essential message:
   chose Hotchkiss instead of other fine institutions in its peer set,
   and the difference Hotchkiss has made.
 
-## For Alumni 
+## For Alumni
 
 > In highlighting alumni stories as part of admissions outreach, you
 > can, for example, illustrate how Hotchkiss prepared graduates for
@@ -544,7 +542,7 @@ around this essential message:
 
 - *More to be added...*
 
-# VI. Building Core Narrative Content 
+# VI. Building Core Narrative Content
 
 To convey the core narrative across media of all kinds, content creators
 should pursue questions that draw out related ideas. Toward that end, we
@@ -663,35 +661,37 @@ Below we list keywords that can support this approach. As these terms
 are meant as discrete vocabulary ideas to encourage similar verbiage, we
 have not prioritized parallel parts of speech.
 
- **School Environment**
-Community
-Pluralistic
-Residential
-Home
-Nature
-Global
-Friendly
-Safe
+## **School Environment**
 
-**Values and Culture**
-Respect
-Intellectual
-Excellence
-Diverse
-Empathetic
-Inspiring
-Joyful
-Supportive              
+- Community
+- Pluralistic
+- Residential
+- Home
+- Nature
+- Global
+- Friendly
+- Safe
 
+## **Values and Culture**
 
-**Student Development**
-Create
-Discover
-Prepare
-Energy
-Drive
-Self-discipline
-Curiosity
+- Respect
+- Intellectual
+- Excellence
+- Diverse
+- Empathetic
+- Inspiring
+- Joyful
+- Supportive
+
+## **Student Development**
+
+- Create
+- Discover
+- Prepare
+- Energy
+- Drive
+- Self-discipline
+- Curiosity
 
 To further illustrate this recommended tone and approach, we contrast
 next the type of community qualities that the School's outreach should
@@ -699,24 +699,23 @@ embody versus those it should never evoke. These terms are inherently
 pointed to contrast starkly who Hotchkiss is becoming versus what it
 refuses to be anymore.
 
+## **Hotchkiss is always:**
 
-**Hotchkiss is always:**
+- Curious
+- Supportive
+- Collegial
+- Rigorous
+- Competitive
+- Hustling
+- Active
+- Welcoming
+- Global
+- Connecting
+- Inspiring
+- Confident
 
-- Curious 
-- Supportive 
-- Collegial 
-- Rigorous 
-- Competitive 
-- Hustling 
-- Active 
-- Welcoming 
-- Global 
-- Connecting 
-- Inspiring 
-- Confident 
+## **Hotchkiss is never:**
 
-
-**Hotchkiss is never:**
 - Indifferent
 - Adversarial
 - Cutthroat
